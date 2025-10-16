@@ -149,7 +149,7 @@ export default function LandingPage() {
             <span className="text-lg font-semibold">{brand.name}</span>
           </div>
           <p className="text-gray-400 text-sm">
-            © 2024 {brand.name}. 让创意自由流淌。
+            © 2025 {brand.name}. 让创意自由流淌。
           </p>
         </div>
       </footer>
