@@ -1,6 +1,5 @@
 'use client'
 
-import { useState, useEffect } from 'react'
 import { brand, logoSvg } from '@/lib/brand'
 
 interface WelcomeModalProps {
@@ -24,7 +23,7 @@ export default function WelcomeModal({ isOpen, onClose }: WelcomeModalProps) {
           d={path.d} 
           stroke={path.stroke} 
           strokeWidth={path.strokeWidth}
-          strokeLinecap={path.strokeLinecap as any}
+          strokeLinecap={path.strokeLinecap as "round" | "butt" | "square"}
           opacity={path.opacity}
         />
       ))}

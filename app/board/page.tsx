@@ -1,6 +1,6 @@
 'use client'
 
-import { Tldraw, useEditor, Editor } from '@tldraw/tldraw'
+import { Tldraw, useEditor } from '@tldraw/tldraw'
 import '@tldraw/tldraw/tldraw.css'
 import jsPDF from 'jspdf'
 import { useState, useEffect } from 'react'

@@ -17,7 +17,7 @@ export default function LandingPage() {
           d={path.d} 
           stroke={path.stroke} 
           strokeWidth={path.strokeWidth}
-          strokeLinecap={path.strokeLinecap as any}
+          strokeLinecap={path.strokeLinecap as "round" | "butt" | "square"}
           opacity={path.opacity}
         />
       ))}
